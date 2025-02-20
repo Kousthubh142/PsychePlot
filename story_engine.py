@@ -15,10 +15,8 @@ GENRE_STARTS = {
 }
 
 def generate_story(genre, story_history):
-    """
-    Generates the first part of the story based on the selected genre and extracts options for continuation.
-    """
-    start_story = GENRE_STARTS.get(genre, "A new adventure begins...")  # Default if genre not found
+    
+    start_story = GENRE_STARTS.get(genre, "A new adventure begins...")
 
     prompt = f"""
     Generate the continuation of this story:
@@ -33,6 +31,8 @@ def generate_story(genre, story_history):
     1. Analysed the query: [detailed understanding]
     2. Story: [Generated story not more than 150 words]
     3. Options: [4 options numbered 1,2,3,4]
+    
+   
     """
     
     response = client.chat.completions.create(
