@@ -27,17 +27,17 @@ def generate_story(genre, story_history):
     2. Give continuation of the story
     3. Provide 4 options (emotional, rational, diplomatic, angry types) for the continuation.
 
-    - Follow this format: 
+    - Follow this format(merge 1 and 2 in a single para, dont display the options heading and the options): 
     1. Analysed the query: [detailed understanding]
     2. Story: [Generated story not more than 150 words]
     3. Options: [4 options numbered 1,2,3,4]
     
-   
+    ### Give me only output
     """
     
     response = client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}],
-        model="llama3-70b-8192",
+        model="llama3-70b-8192", #llama3-70b-8192
         temperature=0.3,
         max_tokens=600
     )
@@ -65,6 +65,8 @@ def continue_story(story_history, selected_option):
 
     - Continue the story while maintaining consistency.
     - Generate another four options for the user to choose from.
+    
+    ### Give me only output (dont say that here are my options at the end)
     """
     
     response = client.chat.completions.create(
