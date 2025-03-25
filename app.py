@@ -7,6 +7,8 @@ if "story_history" not in st.session_state:
     st.session_state.story_history = []
 if "story_options" not in st.session_state:
     st.session_state.story_options = []
+if "choice_history" not in st.session_state:
+    st.session_state.choice_history = []  # Stores only chosen step and option name
 
 st.set_page_config(layout="wide", page_title="PSYCHEPLOT", page_icon="👾")
 
@@ -58,14 +60,22 @@ if st.session_state.selected_genre:
     
     if st.session_state.step_count < 6:
         st.subheader("🔮 Choose the next step:")
+        
         for option in st.session_state.story_options:
             if st.button(option):
                 story_segment, options = continue_story(st.session_state.story_history, option)
                 st.session_state.story_options = options
+                
+                # Store only step number and chosen option name
+                st.session_state.choice_history.append({
+                    "step": st.session_state.step_count + 1,
+                    "chosen_option": option
+                })
+                
                 st.session_state.chosen_options.append(option)
                 st.session_state.step_count += 1
                 st.rerun()
     else:
         st.subheader("📝 Your chosen path:")
-        for i, choice in enumerate(st.session_state.chosen_options, 1):
-            st.write(f"Step {i}: {choice}")
+        for choice in st.session_state.choice_history:
+            st.write(f"**Step {choice['step']}:** {choice['chosen_option']}")

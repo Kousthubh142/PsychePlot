@@ -1,1 +1,3 @@
-pip install groq python-dotenv
+streamlit
+groq
+python-dotenv
