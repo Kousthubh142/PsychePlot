@@ -1,0 +1,131 @@
+{
+        "HHHHH": {
+          "label": "The Enlightened Leader",
+          "description": "Curious, disciplined, outgoing, kind, and emotionally aware. A natural leader with high emotional intelligence."
+        },
+        "HHHHL": {
+          "label": "The Visionary Diplomat",
+          "description": "Inventive, reliable, socially skilled, cooperative, and emotionally stable. Great at guiding others and building bridges."
+        },
+        "HHHLH": {
+          "label": "The Passionate Performer",
+          "description": "Creative, organized, charismatic, assertive, and emotionally expressive. Thrives in dynamic, public environments."
+        },
+        "HHHLL": {
+          "label": "The Independent Idealist",
+          "description": "Imaginative and structured, yet introverted and blunt. Strives for truth over harmony."
+        },
+        "HHLHH": {
+          "label": "The Charismatic Reactor",
+          "description": "Thoughtful and unconventional, struggles with emotional turbulence but excels at inspiring others."
+        },
+        "HHLHL": {
+          "label": "The Unpredictable Artist",
+          "description": "Highly creative and principled, but emotionally steady and often distant. Expresses through abstract forms."
+        },
+        "HHLLH": {
+          "label": "The Analytical Rebel",
+          "description": "Innovative and introverted, resistant to rules but deeply sensitive inside."
+        },
+        "HHLLL": {
+          "label": "The Detached Visionary",
+          "description": "Independent, logical, and emotionally distant. Values thought over connection."
+        },
+        "HLHHH": {
+          "label": "The Fiery Advocate",
+          "description": "Empathetic yet impulsive. Low on structure but high on social drive and emotional intensity."
+        },
+        "HLHHL": {
+          "label": "The Vibrant Connector",
+          "description": "Warm, spontaneous, and full of life. Prefers chaos over routine but deeply values harmony."
+        },
+        "HLHLH": {
+          "label": "The Empathetic Strategist",
+          "description": "Creative and emotionally insightful, yet assertive and unafraid of conflict. Balances heart and head."
+        },
+        "HLHLL": {
+          "label": "The Expressive Maverick",
+          "description": "Energetic and persuasive, but emotionally stable and unapologetically individualistic."
+        },
+        "HLLHH": {
+          "label": "The Sensitive Idealist",
+          "description": "Kind-hearted and emotionally intense, yet often disorganized and introspective."
+        },
+        "HLLHL": {
+          "label": "The Intuitive Wanderer",
+          "description": "Unconventional and curious with a soft demeanor. Dislikes routine and avoids conflict."
+        },
+        "HLLLH": {
+          "label": "The Lone Visionary",
+          "description": "Quiet, original, sensitive, and slightly chaotic. Expresses through solitude and deep thought."
+        },
+        "HLLLL": {
+          "label": "The Elusive Thinker",
+          "description": "Detached from structure and low in sociability, yet highly imaginative and philosophical."
+        },
+        "LHHHH": {
+          "label": "The Loyal Realist",
+          "description": "Grounded, dependable, and sensitive. Seeks harmony and stability in a chaotic world."
+        },
+        "LHHHL": {
+          "label": "The Social Strategist",
+          "description": "Disciplined, sociable, and emotionally grounded. Excels in managing group dynamics."
+        },
+        "LHHLH": {
+          "label": "The Compassionate Achiever",
+          "description": "Structured, ambitious, and sensitive to others’ needs. Driven by purpose and empathy."
+        },
+        "LHHLL": {
+          "label": "The Grounded Realist",
+          "description": "Practical and persistent. Values results, avoids drama, and prefers predictability."
+        },
+        "LHLHH": {
+          "label": "The Expressive Sentinel",
+          "description": "Emotionally in tune and supportive, but avoids chaos and prefers routine."
+        },
+        "LHLHL": {
+          "label": "The Warm Minimalist",
+          "description": "Reserved and steady, but deeply caring. Keeps things simple and values deep connections."
+        },
+        "LHLLH": {
+          "label": "The Pragmatic Thinker",
+          "description": "Introverted but deeply rational. Balanced emotionality and a strong moral compass."
+        },
+        "LHLLL": {
+          "label": "The Structured Observer",
+          "description": "Detail-oriented and organized, with a tendency toward solitude."
+        },
+        "LLHHH": {
+          "label": "The Tender Explorer",
+          "description": "Emotionally rich and adventurous, but often lacks follow-through. Guided by heart and curiosity."
+        },
+        "LLHHL": {
+          "label": "The Relational Drifter",
+          "description": "Compassionate and engaging, but scattered. Thrives in the moment, avoids hard rules."
+        },
+        "LLHLH": {
+          "label": "The Emotional Realist",
+          "description": "Feels deeply and sees clearly. Honest and loyal, but struggles with emotional regulation."
+        },
+        "LLHLL": {
+          "label": "The Gentle Disruptor",
+          "description": "Quietly rebellious, kind, and skeptical of systems. Doesn’t like to be boxed in."
+        },
+        "LLLHH": {
+          "label": "The Chaotic Thinker",
+          "description": "Unstructured, sensitive, and highly perceptive. Often lost in thought or feeling."
+        },
+        "LLLHL": {
+          "label": "The Quiet Helper",
+          "description": "Introverted and steady, avoids confrontation. Gentle and observant, a calming presence."
+        },
+        "LLLLH": {
+          "label": "The Internal Storm",
+          "description": "Low in structure and sociability, but emotionally intense. Often misunderstood but deeply insightful."
+        },
+        "LLLLL": {
+          "label": "The Detached Observer",
+          "description": "Low across the board. Independent and rational, but emotionally distant and withdrawn."
+        }
+  }
+  
