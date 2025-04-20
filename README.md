@@ -1,5 +1,7 @@
 # PSYCHEPLOT
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Interactive storytelling application with personality analysis.
 
 ## Setup
